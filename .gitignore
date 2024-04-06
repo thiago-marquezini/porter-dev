@@ -1,6 +1,4 @@
 .DS_Store
-.env
-docker/.env
 docker/github_app_private_key.pem
 app
 *.db
@@ -21,7 +19,6 @@ local
 go.work.sum
 
 vendor
-**/*.env
 **/node_modules
 zarf/helm/charts
 

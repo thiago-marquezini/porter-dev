@@ -1,5 +1,5 @@
 BINDIR     := $(CURDIR)/bin
-VERSION    ?= dev
+VERSION    ?= production
 SENTRY_DSN ?= 
 
 start-dev: install setup-env-files
